@@ -53,24 +53,7 @@ void draw() {
     line(0, faceSize_Z/2 - 40, 0, faceSize_Z/2);
     popMatrix();
   }
-  stroke(0, 127, 255);
-  for(int i=0; i<24; i++) {
-    float rot = ((float) i/24) * TWO_PI;
-    pushMatrix();
-    translate(2*width/3+250, 250);
-    translate(faceSize_Z * cos(rotHours-TWO_PI/4) /2, faceSize_Z * sin(rotHours-TWO_PI/4)/2);
-    rotate(rot);
-    line(0, faceSize_Z/2 - 80, 0, faceSize_Z/2);
-    popMatrix();
-  }
-  pushMatrix();
-  translate(2*width/3+250, 250);
-  translate(faceSize_Z * cos(rotHours-TWO_PI/4) /2, faceSize_Z * sin(rotHours-TWO_PI/4)/2);
   
-  rotate(rotHours);
-  stroke(255, 0, 0);
-  line(0, 0, 0, faceSize_Z/2);
-  popMatrix();
   
     //scale 3
   strokeWeight(6);
