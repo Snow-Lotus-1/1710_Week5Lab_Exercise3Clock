@@ -1,3 +1,6 @@
+//this is basiclly the example from Meng Jia
+//I just took a looked at it and tried to figure out how it works
+//Just added a digital part cause I didn't find the hour clock face very useful
 float rotSeconds = 0;
 float rotMinutes = 0;
 float rotHours = 0;
